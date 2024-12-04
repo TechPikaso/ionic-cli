@@ -1,0 +1,257 @@
+Last login: Wed Dec  4 14:06:40 on ttys000
+admin@admins-iMac ~ % ionic start kokota blank --type=angular
+cd kokota
+
+? Would you like to build your app with NgModules or Standalone Components? 
+ Standalone components are a new way to build with Angular that simplifies the w
+ay you build your app. 
+ To learn more, visit the Angular docs:
+ https://angular.io/guide/standalone-components
+
+ NgModules
+[INFO] Existing git project found (/Users/admin). Git operations are disabled.
+✔ Preparing directory ./kokota in 896.75μs
+✔ Downloading and extracting blank starter in 1.82s
+> ionic integrations enable capacitor --quiet -- kokota io.ionic.starter
+> npm i --save -E @capacitor/core@latest
+ionic serve
+
+
+ionic serve
+
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated critters@0.0.24: Ownership of Critters has moved to the Nuxt team, who will be maintaining the project going forward. If you'd like to keep using Critters, please switch to the actively-maintained fork at https://github.com/danielroe/beasties
+npm outdated
+
+npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 1169 packages, and audited 1170 packages in 5m
+
+247 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> npm i -D -E @capacitor/cli@latest
+ionic serve
+
+
+added 75 packages, removed 16 packages, changed 2 packages, and audited 1229 packages in 48s
+
+253 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> npm i --save -E @capacitor/haptics @capacitor/app @capacitor/keyboard @capacitor/status-bar
+
+added 4 packages, and audited 1233 packages in 8s
+
+253 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> capacitor init kokota io.ionic.starter --web-dir www
+✔ Creating capacitor.config.ts in /Users/admin/kokota in 1.26ms
+[success] capacitor.config.ts created!
+
+Next steps: 
+https://capacitorjs.com/docs/getting-started#where-to-go-next
+[OK] Integration capacitor added!
+
+Installing dependencies may take several minutes.
+
+  ──────────────────────────────────────────────────────────────
+
+        Ionic Appflow, the mobile DevOps solution by Ionic
+
+           Continuously build, deploy, and ship apps 🚀
+        Focus on building apps while we automate the rest 🎁
+
+                 👉  https://ion.link/appflow  👈
+
+  ──────────────────────────────────────────────────────────────
+
+
+> npm i
+
+up to date, audited 1233 packages in 2s
+
+253 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Join the Ionic Community! 💙
+
+Connect with millions of developers on the Ionic Forum and get access to live
+events, news updates, and more.
+
+? Create free Ionic account? No
+
+
+ionic serve
+
+npm outdated
+
+ionic serve
+
+
+Your Ionic app is ready! Follow these next steps:
+
+- Go to your new project: cd ./kokota
+- Run ionic serve within the app directory to see your app in the browser
+- Run ionic capacitor add to add a native iOS or Android project using Capacitor
+- Generate your app icon and splash screens using cordova-res --skip-config
+--copy
+- Explore the Ionic docs for components, tutorials, and more:
+https://ion.link/docs
+- Building an enterprise app? Ionic has Enterprise Support and Features:
+https://ion.link/enterprise-edition
+admin@admins-iMac kokota % cd kokota
+
+cd: no such file or directory: kokota
+admin@admins-iMac kokota % ionic generate component Kokota
+
+> ng generate component Kokota --project=app
+ 
+Would you like to share pseudonymous usage data about this project with the
+Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy.
+For more
+details and how to change this setting, see https://angular.dev/cli/analytics.
+
+       <option value="amapiano_experience">Amapiano Experien
+'sGlobal setting: not set
+Local setting: disabled
+Effective status: disabled
+CREATE src/app/kokota/kokota.component.scss (0 bytes)
+CREATE src/app/kokota/kokota.component.html (25 bytes)
+CREATE src/app/kokota/kokota.component.spec.ts (696 bytes)
+CREATE src/app/kokota/kokota.component.ts (269 bytes)
+[OK] Generated component!
+admin@admins-iMac kokota % ce</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="hiphop_jam">HipHop Jam</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %   </select>
+zsh: parse error near `\n'
+admin@admins-iMac kokota % 
+admin@admins-iMac kokota %   <!-- Select City -->
+zsh: event not found: -
+admin@admins-iMac kokota %   <select [(ngModel)]="selectedCity" class="dropdown">
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="">Select City</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="cape_town">Cape Town</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="johannesburg">Johannesburg</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="durban">Durban</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %   </select>
+zsh: parse error near `\n'
+admin@admins-iMac kokota % 
+admin@admins-iMac kokota %   <!-- Select Mood -->
+zsh: event not found: -
+admin@admins-iMac kokota %   <select [(ngModel)]="selectedMood" class="dropdown">
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="">Select Mood</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="chill">Chill</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="hype">Hype</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="sad">Sad</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="party">Party</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %   </select>
+zsh: parse error near `\n'
+admin@admins-iMac kokota % 
+admin@admins-iMac kokota %   <!-- Select Date & Time -->
+zsh: event not found: -
+admin@admins-iMac kokota %   <input type="datetime-local" [(ngModel)]="selectedDateTime" class="dropdown" />
+zsh: parse error near `\n'
+admin@admins-iMac kokota % 
+admin@admins-iMac kokota %   <!-- Enkwareni Guide -->
+zsh: event not found: -
+admin@admins-iMac kokota %   <button (click)="showEnkwareniGuide()" class="button">Enkwareni Guide</button>
+zsh: parse error near `="showEnkwareniGuide...'
+admin@admins-iMac kokota %   <div *ngIf="enkwareniGuide" class="pop-up">{{ enkwareniGuide }}</div>
+zsh: parse error near `}'
+admin@admins-iMac kokota % 
+admin@admins-iMac kokota %   <!-- Let's Go Button -->
+zsh: event not found: -
+admin@admins-iMac kokota % >....                                                    if (this.selectedVibe && this.selectedCity && this.selectedMood && this.selectedDateTime) {
+      this.enkwareniGuide = `Your Enkwareni Guide for a ${this.selectedVibe} event in ${this.selectedCity} on ${this.selectedDateTime}. Mood: ${this.selectedMood}. We suggest these events: ...`;
+    } else {
+      this.enkwareniGuide = '';
+    }
+  }
+
+  showPricePlan() {
+    if (this.selectedPullThroughLevel && this.selectedVibe) {
+      this.pricePlan = `Chosen Package: ${this.selectedPullThroughLevel}, Event: ${this.selectedVibe}. Total Price: $150`;
+      this.showPaymentMethodsBtn = true;
+    }
+  }
+
+  togglePaymentMethods() {
+    this.showPaymentMethods = !this.showPaymentMethods;
+  }
+}
+
+zsh: parse error near `="showPricePlan()"'
+admin@admins-iMac kokota % >....                                                                                         
+admin@admins-iMac kokota %     <option value="hype">Hype</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="sad">Sad</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %     <option value="party">Party</option>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %   </select>
+zsh: parse error near `\n'
+admin@admins-iMac kokota %
+admin@admins-iMac kokota %   <!-- Select Date & Time -->
+zsh: event not found: -
+admin@admins-iMac kokota %   <input type="datetime-local" [(ngModel)]="selectedDateTime" class="dropdown" />
+zsh: parse error near `\n'
+admin@admins-iMac kokota %
+admin@admins-iMac kokota %   <!-- Enkwareni Guide -->
+zsh: event not found: -
+admin@admins-iMac kokota %   <button (click)="showEnkwareniGuide()" class="button">Enkwareni Guide</button>
+zsh: parse error near `="showEnkwareniGuide...'
+admin@admins-iMac kokota %   <div *ngIf="enkwareniGuide" class="pop-up">{{ enkwareniGuide }}</div>
+zsh: parse error near `}'
+admin@admins-iMac kokota %
+admin@admins-iMac kokota %   <!-- Let's Go Button -->
+zsh: event not found: -
+admin@admins-iMac kokota % >....                                                    if (this.selectedVibe && this.selectedCity && this.selectedMood && this.selectedDateTime) {
+      this.enkwareniGuide = `Your Enkwareni Guide for a ${this.selectedVibe} event in ${this.selectedCity} on ${this.selectedDateTime}. Mood: ${this.selectedMood}. We suggest these events: ...`;
+    } else {
+      this.enkwareniGuide = '';
+    }
+  }
+
+  showPricePlan() {
+    if (this.selectedPullThroughLevel && this.selectedVibe) {
+      this.pricePlan = `Chosen Package: ${this.selectedPullThroughLevel}, Event: ${this.selectedVibe}. Total Price: $150`;
+      this.showPaymentMethodsBtn = true;
+    }
+  }
+
+  togglePaymentMethods() {
+    this.showPaymentMethods = !this.showPaymentMethods;
+  }
+}
+
+zsh: parse error near `="showPricePlan()"'
+admin@admins-iMac kokota %
+
+zsh: parse error near `\n'
+admin@admins-iMac kokota % cd ~/kokota
+
+admin@admins-iMac kokota % 
